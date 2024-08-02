@@ -1,39 +1,6 @@
-body{
-    background-color: bisque;
-}
-header{
-    background-color: rgb(253, 214, 166);
-    margin-top: 0px;
-}
-h1{
-    text-align: center;
-}
-#fruta1{
-    width: 15%;
-    border: 8px solid whitesmoke;
-}
-#fruta2{
-    width: 15%;
-    border: 8px solid rgb(255, 168, 97);
-}
-#aa{
-    width: 15%;
-    border: 8px solid rgb(255, 168, 97);
-}
-#cc{
-    width: 15%;
-    border: 8px solid rgb(255, 168, 97);
-}
-.lista1 li{
-    list-style-type: none;
-    display: inline-block;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 370px;
-}
-
-footer {
-    text-align: center;
-    background-color: rgb(248, 217, 188);
-    padding: 2px 0;
+form label{
+    display: block;
+    font-size: 20px;
+    color: blue;
+    margin:0 0 10px;
 }

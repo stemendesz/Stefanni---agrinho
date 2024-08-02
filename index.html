@@ -4,53 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Frutas</title>
-    
+
+    <title>FORMULÁRIO</title>
 </head>
 <body>
-    <header class="header">
-        <div class="pagina1"></div>
 
-        <h1>Frutinhas saborosas</h1>
+    <form>
 
-        <img src="frutas.jpeg" id="fruta1">
+        <div class="Formulário">
 
-        <nav>
-            <ul class="lista1">
-                <center>
-                <li><a href="https://www.receiteria.com.br/receitas-de-sucos/">Sucos com Frutas</a></li>
-           
-                <li><a href="https://www.todamateria.com.br/frutas/">Mais consumidas</a></li>
-    
-                <li><a href="https://brasilescola.uol.com.br/frutas">Beneficios</a></li>
-            
-            </center>
-            </ul>
-        </nav>
-    </header>
+         <label for="nome">Nome</label>
+         <input typ="text" id="nome" class="input-padrao" required>
+        
+
+         <label for="sobrenome">Sobrenome</label>
+         <input type="text" id="sobrenome" class="input-padrao" required>
+
+         <label for="email">E-mail</label>
+         <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+         
+         <label for="Telefone">Telefone</label>
+         <input type="tel" id="Telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+         <label for="mensagem">Mensagem</label>
+         <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea></textarea>
+         
+         <fieldset>
+            <legend> Como prefere o nosso contato? </legend>
           
-    <div class="pagina2">
+         </fieldset>
 
-        <h3>Melhores vitaminas ataves das frutas</h3>
-        <p>O consumo de frutas é uma recomendação nutricional popular, e não é pra menos: ricas em fibras e micronutrientes, as frutas são elementos indispensáveis em uma alimentação equilibrada e saudável.<br> Neste artigo, apresentamos uma tabela de composição das frutas frescas e secas, para orientar a prescrição nutricional destes alimentos saborosos e nutritivos.</p>
 
-        <nav>
-            <img src="fruta2.jpeg"id="fruta2">
-            <img src="frutas3.jpeg"id="aa">   
-            <img src="frutas5.jpeg" id="cc">
-             <ul>
-               
-            </ul>
-        </nav>
 
-        <footer>
-            <img scr="ima.png" alt="Stefanni Kamily" class="oo">
-            <p class="copyright">&copy; Frutas - 2024</p>
-        </footer>
-  
 
-    
+
+
+
+         <input type="submit" value="Enviar Formulário">
+
+
+
+
+
         </div>
-   
+    </form>
+
 </body>
 </html>
